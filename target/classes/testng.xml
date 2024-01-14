@@ -1,0 +1,13 @@
+<!-- testng.xml -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+     <parameter name="name" value="Ganesh"/>
+        <classes>
+            <class name="SampleTest.Test1"/>
+        </classes>
+    </test>
+</suite>
+
+<!-- To run the simple test for Harness-->
+<!-- mvn test -Dname=GaneshPalanisamy -->

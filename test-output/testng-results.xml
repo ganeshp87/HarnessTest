@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-14T18:01:48 GMT" name="Suite" finished-at="2024-01-14T18:01:48 GMT" duration-ms="30">
+    <groups>
+    </groups>
+    <test started-at="2024-01-14T18:01:48 GMT" name="Test" finished-at="2024-01-14T18:01:48 GMT" duration-ms="30">
+      <class name="SampleTest.Test1">
+        <test-method signature="testWithParameter(java.lang.String)[pri:0, instance:SampleTest.Test1@4e268090]" started-at="2024-01-14T18:01:48 GMT" name="testWithParameter" finished-at="2024-01-14T18:01:48 GMT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithParameter -->
+      </class> <!-- SampleTest.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
