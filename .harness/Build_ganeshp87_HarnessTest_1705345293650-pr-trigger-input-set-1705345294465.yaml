@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ganeshp87_HarnessTest_1705345293650-pr-trigger-input-set
+  identifier: Build_ganeshp87_HarnessTest_1705345293650prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ganeshp87_HarnessTest_1705345293650
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
